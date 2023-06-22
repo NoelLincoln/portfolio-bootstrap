@@ -21,12 +21,17 @@
     <body>
         <div class="container-fluid">
             <header>
-                <nav>
-                    <ul>
-                        <li>Hello</li>
-                        <li>Portfolio</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                <nav class="navbar navbar-expand-sm bg-light
+                    justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#headline"
+                                class="nav-link text-dark">Hello</a></li>
+                        <li class="nav-item"><a href="#projects"
+                                class="nav-link text-dark">Portfolio</a></li>
+                        <li class="nav-item"><a href="#about-myself"
+                                class="nav-link text-dark">About</a></li>
+                        <li class="nav-item"><a href="#contact"
+                                class="nav-link text-dark">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -131,22 +136,26 @@
 
             <section class="contact-form" id="contact">
                 <h2>Contact Me</h2>
-                <p>If you have an application you are interested in developing, a
-                  feature that you need built or a project that needs coding.
-                  I’d love to help with it!</p>
+                <p>If you have an application you are interested in developing,
+                    a
+                    feature that you need built or a project that needs coding.
+                    I’d love to help with it!</p>
                 <form action="https://formspree.io/f/xoqzgvow" method="post"
-                  enctype="multipart/form-data">
-                  <input type="text" placeholder="Lorem ipsum"
-                    maxlength="30"
-                    required>
-                  <input type="email" name="email" placeholder="loremispum@gmail.com"
-                    required>
-                  <textarea rows="7" name="message"
-                    placeholder="Write your message here..." maxlength="500"></textarea>
-                  <input type="submit" value="Get in touch" class="submit-btn">
+                    enctype="multipart/form-data">
+                    <input type="text" placeholder="Lorem ipsum"
+                        maxlength="30"
+                        required>
+                    <input type="email" name="email"
+                        placeholder="loremispum@gmail.com"
+                        required>
+                    <textarea rows="7" name="message"
+                        placeholder="Write your message here..."
+                        maxlength="500"></textarea>
+                    <input type="submit" value="Get in touch"
+                        class="submit-btn">
                 </form>
-              </section>
-              
+            </section>
+
             <script
                 src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
