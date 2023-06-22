@@ -1,0 +1,17 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* .p {
+    margin: 2em 0;
+} */
